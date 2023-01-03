@@ -1,0 +1,145 @@
+/* Formatações gerais */
+*{
+    font-family: Arial, Helvetica, sans-serif;    
+    color: #fff;
+}
+
+/* Formatação do corpo da página // Inicio */
+body, html{
+    margin: 0;
+    height: 100%;
+    color: #fff;   
+    background:  linear-gradient(30deg,#231942,#231942,#231942,#5e548e,#9f86c0,#be95c4,#e0b1cb,#5e548e,#5e548e); 
+    overflow-x: hidden;    
+}
+
+
+/* Formatação do cabeçalho // Inicio */
+
+/* Foramatação da barra de navegação superior // Inicio */
+
+#meuLogo{
+    max-width: 200px;
+}
+
+nav.navbar-transparente{
+    padding: 1rem;
+    background-color: rgba(35, 25, 66,0.5);
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color:#e0b1cb;
+}
+/* Foramatação da barra de navegação superior // Fim */
+
+/* Formatação do cabeçalho // Fim */
+/* Formatação da Primeira Section // Parallax // Inicio */
+
+#primeiraSecao{
+    height: 100%;
+    /*background-image: url(../imagens/plano_de_fundo/sincerely-media-aUPLLA6o_3I-unsplash.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#botaoContato{  
+    border:1px dotted;  
+    border-radius: 5em;
+    color: #fff;
+    font-size: 20px;  
+}
+#botaoContato:hover{
+    background-color: #5e548e;   
+}
+#botaoContato i{
+    font-size: 28px;
+}
+
+
+/* Formatação da Primeira Section // Parallax // Fim */
+/* Formatação da Segunda Section // Informações // Inicio */
+#segundaSecao{
+   /* background:  linear-gradient(30deg, #7c26f8,#7c26f8,#7c26f8, #ff4169, #ff4169); */
+   background-color: rgba(000, 000, 000, 0.3);
+
+}
+
+
+/* Formatação dos icones */
+#icones i {
+    font-size: 30px;
+    color: #fff;      
+}
+
+
+
+/* Formatação da Segunda Section // Informações // Fim */
+
+/* Formatação da Terceira Section // Formação // Inicio */
+
+#terceiraSecao{
+    /*background:  linear-gradient(-60deg, #7c26f8,#7c26f8,#7c26f8, #ff4169, #ff4169); */
+    background-color: rgba(000, 000, 000, 0.3);
+
+}
+
+
+/* Formatação dos cartões/icones de cursos */
+.cartoesCursos{
+    max-width: 160px;
+}
+
+
+/* Formatação da Terceira Section // Formação // Fim */
+
+/* Formatação da Quarta Section // Projetos // Inicio */
+
+.projetosMobileSize a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.projetosMobileSize:hover{
+    border-radius: 15px;
+    background:  linear-gradient(30deg,#231942,#5e548e,#9f86c0,#be95c4,#e0b1cb,#5e548e); 
+    font-size: 22px;
+}
+
+
+.imagensProjetos{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(000,000,000,0.3);  
+    /*max-width: 320px;*/
+}
+
+
+
+
+/* Formatação da Quarta Section // Projetos // Fim */
+
+
+/* Formatação do Footer // Inicio */
+footer{
+    background-color: rgba(35, 25, 66,0.5);
+}
+
+#iconesRodape i {
+    font-size: 30px;
+    color: #fff;      
+}
+
+
+
+/* Formatação do Footer // Fim */
+
+
+
+
+
+/* Formatação do corpo da página // Fim */
