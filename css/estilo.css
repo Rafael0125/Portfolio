@@ -12,6 +12,13 @@ body, html{
     background:  linear-gradient(30deg,#231942,#231942,#231942,#5e548e,#9f86c0,#be95c4,#e0b1cb,#5e548e,#5e548e); 
     overflow-x: hidden;    
 }
+.titulosDesktop{
+    font-size: 36px;
+}
+.titulosMobile{
+    font-size: 22px;
+
+}
 
 
 /* Formatação do cabeçalho // Inicio */
